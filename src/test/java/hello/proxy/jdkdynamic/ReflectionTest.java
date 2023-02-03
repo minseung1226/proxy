@@ -60,7 +60,7 @@ public class ReflectionTest {
 
     }
 
-    private void dynamicCall(Method method, Object target) throws InvocationTargetException, IllegalAccessException {
+    private void dynamicCall(Method method, Object target) throws Exception {
         log.info("start");
 
         Object result = method.invoke(target);
