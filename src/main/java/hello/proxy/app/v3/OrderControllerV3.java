@@ -25,7 +25,7 @@ public class OrderControllerV3 {
         service.orderItem(itemId);
         return "ok";
     }
-    @GetMapping("/v3/no-log")
+    @GetMapping("/v3/noLog")
     public String noLog() {
         return null;
     }

@@ -23,7 +23,7 @@ public class OrderControllerV2 {
         service.orderItem(itemId);
         return "ok";
     }
-    @GetMapping("/v2/no-log")
+    @GetMapping("/v2/noLog")
     public String noLog() {
         return null;
     }
